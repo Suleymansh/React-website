@@ -1,0 +1,47 @@
+.find {
+  max-width: 1040px;
+  margin: auto;
+}
+
+.heading h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem;
+}
+.heading p {
+  text-align: center;
+}
+.text_bg {
+  background-color: rgb(137, 173, 173);
+  height: 25px;
+  max-width: 600px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.text_bg p {
+  font-size: 1.4rem;
+  font-weight: bolder;
+  font-family: "Courier New", Courier, monospace;
+  margin-top: -0.6rem;
+}
+.card{
+    margin:.5rem;
+    border-radius:10px ;
+    text-align: center;
+    box-shadow: rgb(52, 75, 75) 0px 2px 8px 0px ;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.slider_container{
+    padding: 5rem 0;
+    margin: 0 auto;
+}

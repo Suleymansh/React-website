@@ -1,0 +1,51 @@
+.drive {
+  max-width: 1040px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+.drive img {
+  max-width: 512px;
+}
+.drive h2 {
+  margin-top: 30%;
+  font-size: 1.3rem;
+}
+.drive span {
+  color: blue;
+}
+
+.drive p {
+  font-size: 1.3rem;
+  padding: 1.5rem 0;
+}
+.drive button {
+  color: aliceblue;
+  background-color: rgb(65, 65, 231);
+  border: none;
+  padding: 10px;
+  font-weight: bolder;
+}
+.drive button:hover {
+  background-color: rgb(174, 82, 183);
+  transition: background-color 1s;
+}
+
+@media (max-width: 930px) {
+  .drive {
+    grid-template-columns: 1fr;
+  }
+  .drive img {
+    max-width: 80%;
+  }
+  .drive .left {
+    display: flex;
+    justify-content: center;
+  }
+ .content{
+    padding: 5% 25%;
+ 
+ }
+}

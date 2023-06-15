@@ -1,0 +1,45 @@
+.luxury {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 5rem;
+}
+.heading h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem;
+}
+
+.luxury .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 4rem 1;
+}
+
+.card {
+  width: 100%;
+
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+    border-radius: 10px;
+}
+.content h3 {
+  text-align: center;
+}
+
+@media (max-width: 770px) {
+  .luxury .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width:500px){
+
+   .luxury .container{
+      grid-template-columns:  1fr
+   }
+   
+}
